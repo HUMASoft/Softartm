@@ -1,0 +1,3 @@
+[submodule "Motor_Softarm/lib/CiA402Device"]
+	path = Motor_Softarm/lib/CiA402Device
+	url = https://github.com/HUMASoft/CiA402Device.git
