@@ -22,7 +22,7 @@ int main ()
     CiA402SetupData sd3(2048,157,0.001, 1.25, 20 );
     CiA402Device m3 (33, &pm3, &sd3);
     m3.SetupPositionMode(1,1);
-//    m3.Setup_Velocity_Mode();
+    //    m3.Setup_Velocity_Mode();
 
 
     // motors must be turned ON
@@ -30,26 +30,30 @@ int main ()
     double pos;
     double vel;
 
-    m1.Reset();
-    sleep(1);
-    m1.SwitchOn();
-
-    m2.Reset();
-    sleep(1);
-    m2.SwitchOn();
 
     // position  [rads]
-    cout << m1.GetPosition() << endl;
-    cout << m2.GetPosition() << endl;
     cout << m3.GetPosition() << endl;
-
-    m1.SetPosition(-2);
-//    m3.SetVelocity(1);
-
-    sleep(4);
+    cout << m2.GetPosition() << endl;
     cout << m1.GetPosition() << endl;
 
-//    m1.SetVelocity(0);
+    m3.SetPosition(-3);
+    m2.SetPosition(-3);
+    m1.SetPosition(3.5);
+
+    sleep(3);
+    cout << m3.GetPosition() << endl;
+    cout << m2.GetPosition() << endl;
+    cout << m1.GetPosition() << endl;
+
+    m3.SetPosition(0);
+    m2.SetPosition(0);
+    m1.SetPosition(0);
+
+    sleep(3);
+    cout << m3.GetPosition() << endl;
+    cout << m2.GetPosition() << endl;
+    cout << m1.GetPosition() << endl;
+
 
 
 
