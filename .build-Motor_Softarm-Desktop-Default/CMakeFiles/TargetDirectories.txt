@@ -1,9 +1,0 @@
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/CMakeFiles/edit_cache.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/CMakeFiles/kinematics.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/CMakeFiles/arm1.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/kinematics/CMakeFiles/rebuild_cache.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/kinematics/CMakeFiles/edit_cache.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/lib/CiA402Device/CMakeFiles/rebuild_cache.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/lib/CiA402Device/CMakeFiles/CiA402Device.dir
-/home/humasoft/Softartm/.build-Motor_Softarm-Desktop-Default/lib/CiA402Device/CMakeFiles/edit_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/arm1.dir/tools/arm1.cpp.o  -o arm1 lib/CiA402Device/libCiA402Device.a libkinematics.a 

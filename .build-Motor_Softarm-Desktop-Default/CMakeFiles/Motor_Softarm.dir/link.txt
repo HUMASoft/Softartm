@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/Motor_Softarm.dir/main.cpp.o  -o Motor_Softarm 
