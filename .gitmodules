@@ -4,3 +4,6 @@
 [submodule "Motor_Softarm/kinematics"]
 	path = Motor_Softarm/kinematics
 	url = https://github.com/HUMASoft/kinematics.git
+[submodule "Motor_Softarm/lib/sensor-integration"]
+	path = Motor_Softarm/lib/sensor-integration
+	url = https://github.com/HUMASoft/sensor-integration.git
