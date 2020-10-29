@@ -20,6 +20,12 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 
 add_subdirectory(lib/CiA402Device)
 
+
+add_subdirectory(lib/sensor-integration/)
+#INCLUDE_DIRECTORIES(${SUBDIR_INCLUDE_DIRECTORIES})
+#target_link_libraries( ${PROJECT_NAME} ${SUBDIR_LINK_NAMES} )
+
+
 #revisar la forma de incluir kinematics
 INCLUDE_DIRECTORIES(kinematics)
 add_library(kinematics kinematics/Kinematics.cpp)

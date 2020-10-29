@@ -7,3 +7,6 @@
 [submodule "Motor_Softarm/lib/sensor-integration"]
 	path = Motor_Softarm/lib/sensor-integration
 	url = https://github.com/HUMASoft/sensor-integration.git
+[submodule "Motor_Softarm/lib/fcontrol"]
+	path = Motor_Softarm/lib/fcontrol
+	url = https://github.com/munozyanez/fcontrol.git
